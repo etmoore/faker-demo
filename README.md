@@ -16,6 +16,7 @@ In your browser, go to: `localhost:3000`
 
 
 If you'd like test other Faker capabilities, follow the steps below:  
+
 1. Decide what data you'd like to fake. You can see what's available in the official [Faker documentation](https://github.com/stympy/faker).  
 2. Create a migration to add/remove the desired attributes from the Person model.  
 3. Edit **seeds.rb** to include the new Faker data.  
