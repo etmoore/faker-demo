@@ -6,5 +6,8 @@ Person.delete_all
                 address: Faker::Address.street_address,
                 credit_card_number: Faker::Business.credit_card_number,
                 email: Faker::Internet.email,
-                email_password: Faker::Internet.password
+                email_password: Faker::Internet.password,
+                bitcoin: Faker::Bitcoin.address,
+                company: Faker::Company.name,
+                company_slogan: Faker::Company.bs
 end
